@@ -115,26 +115,40 @@ This late-fusion approach ensures stability and interpretability.
 ## 🗂️ Repository Structure
 
 satellite-property-valuation/
-│
+
+
 ├── Data/
-│ ├── train.xlsx
-│ └── test.xlsx
-│
+
+├── train.xlsx
+
+└── test.xlsx
+
 ├── satellite_images/
-│ └── residual_train/
-│
+
+└── residual_train/
+
 ├── notebooks/
-│ ├── preprocessing.ipynb
-│ ├── baseline_model.ipynb
-│ ├── multimodal_residual.ipynb
-│ └── gradcam_visualization.ipynb
-│
+
+├── preprocessing.ipynb
+
+├── baseline_model.ipynb
+
+├── multimodal_residual.ipynb
+
+└── gradcam_visualization.ipynb
+
 ├── data_fetcher_residuals.py
+
 ├── baseline_model.pkl
+
 ├── scaler.pkl
+
 ├── final_predictions.csv
+
 ├── README.md
+
 └── report.pdf
+
 ---
 
 ## ⚙️ **Tech Stack**
